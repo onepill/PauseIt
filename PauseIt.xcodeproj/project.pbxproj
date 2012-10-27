@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63609299163C412F0074D391 /* AppleMediaKeyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63609297163C412F0074D391 /* AppleMediaKeyController.m */; };
 		6386A1951629652400936C1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6386A1941629652400936C1D /* Cocoa.framework */; };
 		6386A19F1629652400936C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6386A19D1629652400936C1D /* InfoPlist.strings */; };
 		6386A1A11629652400936C1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6386A1A01629652400936C1D /* main.m */; };
@@ -30,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63609296163C412F0074D391 /* AppleMediaKeyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMediaKeyController.h; sourceTree = "<group>"; };
+		63609297163C412F0074D391 /* AppleMediaKeyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMediaKeyController.m; sourceTree = "<group>"; };
+		63609298163C412F0074D391 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
 		6386A1901629652400936C1D /* PauseIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PauseIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6386A1941629652400936C1D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6386A1971629652400936C1D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -72,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63609295163C412F0074D391 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				63609296163C412F0074D391 /* AppleMediaKeyController.h */,
+				63609297163C412F0074D391 /* AppleMediaKeyController.m */,
+				63609298163C412F0074D391 /* singleton.h */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
 		6386A1851629652400936C1D = {
 			isa = PBXGroup;
 			children = (
@@ -114,9 +128,10 @@
 		6386A19A1629652400936C1D /* PauseIt */ = {
 			isa = PBXGroup;
 			children = (
+				6386A1A91629652400936C1D /* MainMenu.xib */,
+				63609295163C412F0074D391 /* libs */,
 				6386A1A61629652400936C1D /* AppDelegate.h */,
 				6386A1A71629652400936C1D /* AppDelegate.m */,
-				6386A1A91629652400936C1D /* MainMenu.xib */,
 				6386A19B1629652400936C1D /* Supporting Files */,
 			);
 			path = PauseIt;
@@ -263,6 +278,7 @@
 			files = (
 				6386A1A11629652400936C1D /* main.m in Sources */,
 				6386A1A81629652400936C1D /* AppDelegate.m in Sources */,
+				63609299163C412F0074D391 /* AppleMediaKeyController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +462,7 @@
 				6386A1C41629652500936C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6386A1C51629652500936C1D /* Build configuration list for PBXNativeTarget "PauseItTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +471,7 @@
 				6386A1C71629652500936C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
