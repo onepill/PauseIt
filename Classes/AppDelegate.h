@@ -8,7 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSApplication <NSObject>
+@interface AppDelegate : NSApplication <NSObject>{
+//    NSWindow * window;
+    IBOutlet NSMenu * statusMenu;
+    NSStatusItem * statusItem;
+}
+
+- (IBAction) playPauseMenuPressed:(id)sender;
 
 @property (assign) IBOutlet NSWindow *window;
 

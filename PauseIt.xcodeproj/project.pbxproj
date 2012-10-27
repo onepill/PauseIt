@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63609299163C412F0074D391 /* AppleMediaKeyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63609297163C412F0074D391 /* AppleMediaKeyController.m */; };
+		636092A9163C42850074D391 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636092A3163C42850074D391 /* AppDelegate.m */; };
+		636092AA163C42850074D391 /* AppleMediaKeyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636092A6163C42850074D391 /* AppleMediaKeyController.m */; };
+		636092AB163C42850074D391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636092A8163C42850074D391 /* main.m */; };
+		636092B5163C428F0074D391 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 636092AD163C428F0074D391 /* Credits.rtf */; };
+		636092B6163C428F0074D391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 636092AF163C428F0074D391 /* InfoPlist.strings */; };
+		636092B7163C428F0074D391 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636092B1163C428F0074D391 /* MainMenu.xib */; };
+		636092B8163C428F0074D391 /* PauseIt-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 636092B3163C428F0074D391 /* PauseIt-Info.plist */; };
+		636092DD163C59620074D391 /* next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 636092DB163C59620074D391 /* next.scpt */; };
+		636092DE163C59620074D391 /* playpause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 636092DC163C59620074D391 /* playpause.scpt */; };
+		636092E1163C5C3A0074D391 /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 636092E0163C5C3A0074D391 /* menuIcon.png */; };
 		6386A1951629652400936C1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6386A1941629652400936C1D /* Cocoa.framework */; };
-		6386A19F1629652400936C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6386A19D1629652400936C1D /* InfoPlist.strings */; };
-		6386A1A11629652400936C1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6386A1A01629652400936C1D /* main.m */; };
-		6386A1A51629652400936C1D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6386A1A31629652400936C1D /* Credits.rtf */; };
-		6386A1A81629652400936C1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6386A1A71629652400936C1D /* AppDelegate.m */; };
-		6386A1AB1629652400936C1D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6386A1A91629652400936C1D /* MainMenu.xib */; };
 		6386A1B31629652500936C1D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6386A1B21629652500936C1D /* SenTestingKit.framework */; };
 		6386A1B41629652500936C1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6386A1941629652400936C1D /* Cocoa.framework */; };
 		6386A1BC1629652500936C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6386A1BA1629652500936C1D /* InfoPlist.strings */; };
@@ -31,22 +35,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63609296163C412F0074D391 /* AppleMediaKeyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMediaKeyController.h; sourceTree = "<group>"; };
-		63609297163C412F0074D391 /* AppleMediaKeyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMediaKeyController.m; sourceTree = "<group>"; };
-		63609298163C412F0074D391 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		636092A2163C42850074D391 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		636092A3163C42850074D391 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		636092A5163C42850074D391 /* AppleMediaKeyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMediaKeyController.h; sourceTree = "<group>"; };
+		636092A6163C42850074D391 /* AppleMediaKeyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMediaKeyController.m; sourceTree = "<group>"; };
+		636092A7163C42850074D391 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		636092A8163C42850074D391 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		636092AE163C428F0074D391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		636092B0163C428F0074D391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		636092B2163C428F0074D391 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		636092B3163C428F0074D391 /* PauseIt-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PauseIt-Info.plist"; sourceTree = "<group>"; };
+		636092BD163C43460074D391 /* PauseIt-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PauseIt-Prefix.pch"; sourceTree = "<group>"; };
+		636092DB163C59620074D391 /* next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = next.scpt; sourceTree = "<group>"; };
+		636092DC163C59620074D391 /* playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = playpause.scpt; sourceTree = "<group>"; };
+		636092E0163C5C3A0074D391 /* menuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuIcon.png; sourceTree = "<group>"; };
 		6386A1901629652400936C1D /* PauseIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PauseIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6386A1941629652400936C1D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6386A1971629652400936C1D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		6386A1981629652400936C1D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6386A1991629652400936C1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6386A19C1629652400936C1D /* PauseIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PauseIt-Info.plist"; sourceTree = "<group>"; };
-		6386A19E1629652400936C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6386A1A01629652400936C1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6386A1A21629652400936C1D /* PauseIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PauseIt-Prefix.pch"; sourceTree = "<group>"; };
-		6386A1A41629652400936C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		6386A1A61629652400936C1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6386A1A71629652400936C1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6386A1AA1629652400936C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6386A1B11629652500936C1D /* PauseItTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PauseItTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6386A1B21629652500936C1D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		6386A1B91629652500936C1D /* PauseItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PauseItTests-Info.plist"; sourceTree = "<group>"; };
@@ -76,20 +83,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63609295163C412F0074D391 /* libs */ = {
+		636092A1163C42850074D391 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				63609296163C412F0074D391 /* AppleMediaKeyController.h */,
-				63609297163C412F0074D391 /* AppleMediaKeyController.m */,
-				63609298163C412F0074D391 /* singleton.h */,
+				636092BD163C43460074D391 /* PauseIt-Prefix.pch */,
+				636092A2163C42850074D391 /* AppDelegate.h */,
+				636092A3163C42850074D391 /* AppDelegate.m */,
+				636092A4163C42850074D391 /* libs */,
+				636092A8163C42850074D391 /* main.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		636092A4163C42850074D391 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				636092A5163C42850074D391 /* AppleMediaKeyController.h */,
+				636092A6163C42850074D391 /* AppleMediaKeyController.m */,
+				636092A7163C42850074D391 /* singleton.h */,
 			);
 			path = libs;
+			sourceTree = "<group>";
+		};
+		636092AC163C428F0074D391 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				636092DF163C5C390074D391 /* images */,
+				636092BE163C44A80074D391 /* scripts */,
+				636092AD163C428F0074D391 /* Credits.rtf */,
+				636092AF163C428F0074D391 /* InfoPlist.strings */,
+				636092B1163C428F0074D391 /* MainMenu.xib */,
+				636092B3163C428F0074D391 /* PauseIt-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		636092BE163C44A80074D391 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				636092DB163C59620074D391 /* next.scpt */,
+				636092DC163C59620074D391 /* playpause.scpt */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		636092DF163C5C390074D391 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				636092E0163C5C3A0074D391 /* menuIcon.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		6386A1851629652400936C1D = {
 			isa = PBXGroup;
 			children = (
-				6386A19A1629652400936C1D /* PauseIt */,
+				636092A1163C42850074D391 /* Classes */,
+				636092AC163C428F0074D391 /* Resources */,
 				6386A1B71629652500936C1D /* PauseItTests */,
 				6386A1931629652400936C1D /* Frameworks */,
 				6386A1911629652400936C1D /* Products */,
@@ -123,30 +173,6 @@
 				6386A1991629652400936C1D /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		6386A19A1629652400936C1D /* PauseIt */ = {
-			isa = PBXGroup;
-			children = (
-				6386A1A91629652400936C1D /* MainMenu.xib */,
-				63609295163C412F0074D391 /* libs */,
-				6386A1A61629652400936C1D /* AppDelegate.h */,
-				6386A1A71629652400936C1D /* AppDelegate.m */,
-				6386A19B1629652400936C1D /* Supporting Files */,
-			);
-			path = PauseIt;
-			sourceTree = "<group>";
-		};
-		6386A19B1629652400936C1D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6386A19C1629652400936C1D /* PauseIt-Info.plist */,
-				6386A19D1629652400936C1D /* InfoPlist.strings */,
-				6386A1A01629652400936C1D /* main.m */,
-				6386A1A21629652400936C1D /* PauseIt-Prefix.pch */,
-				6386A1A31629652400936C1D /* Credits.rtf */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6386A1B71629652500936C1D /* PauseItTests */ = {
@@ -239,9 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6386A19F1629652400936C1D /* InfoPlist.strings in Resources */,
-				6386A1A51629652400936C1D /* Credits.rtf in Resources */,
-				6386A1AB1629652400936C1D /* MainMenu.xib in Resources */,
+				636092B5163C428F0074D391 /* Credits.rtf in Resources */,
+				636092B6163C428F0074D391 /* InfoPlist.strings in Resources */,
+				636092B7163C428F0074D391 /* MainMenu.xib in Resources */,
+				636092B8163C428F0074D391 /* PauseIt-Info.plist in Resources */,
+				636092DD163C59620074D391 /* next.scpt in Resources */,
+				636092DE163C59620074D391 /* playpause.scpt in Resources */,
+				636092E1163C5C3A0074D391 /* menuIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6386A1A11629652400936C1D /* main.m in Sources */,
-				6386A1A81629652400936C1D /* AppDelegate.m in Sources */,
-				63609299163C412F0074D391 /* AppleMediaKeyController.m in Sources */,
+				636092A9163C42850074D391 /* AppDelegate.m in Sources */,
+				636092AA163C42850074D391 /* AppleMediaKeyController.m in Sources */,
+				636092AB163C42850074D391 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,26 +331,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6386A19D1629652400936C1D /* InfoPlist.strings */ = {
+		636092AD163C428F0074D391 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6386A19E1629652400936C1D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6386A1A31629652400936C1D /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6386A1A41629652400936C1D /* en */,
+				636092AE163C428F0074D391 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		6386A1A91629652400936C1D /* MainMenu.xib */ = {
+		636092AF163C428F0074D391 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6386A1AA1629652400936C1D /* en */,
+				636092B0163C428F0074D391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		636092B1163C428F0074D391 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636092B2163C428F0074D391 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -394,8 +424,8 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PauseIt/PauseIt-Prefix.pch";
-				INFOPLIST_FILE = "PauseIt/PauseIt-Info.plist";
+				GCC_PREFIX_HEADER = "Classes/PauseIt-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/PauseIt-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,8 +436,8 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PauseIt/PauseIt-Prefix.pch";
-				INFOPLIST_FILE = "PauseIt/PauseIt-Info.plist";
+				GCC_PREFIX_HEADER = "Classes/PauseIt-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/PauseIt-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
