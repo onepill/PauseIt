@@ -50,7 +50,7 @@
 - (void)awakeFromNib{
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"menuIcon" ofType:@"png"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"menuIcon" ofType:@"tiff"];
     NSImage * menuIcon = [[NSImage alloc] initWithContentsOfFile:path];
     [statusItem setImage:menuIcon];
 //    [statusItem setTitle:@"PauseIt"];
