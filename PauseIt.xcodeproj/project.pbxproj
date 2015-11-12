@@ -13,7 +13,6 @@
 		636092B5163C428F0074D391 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 636092AD163C428F0074D391 /* Credits.rtf */; };
 		636092B6163C428F0074D391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 636092AF163C428F0074D391 /* InfoPlist.strings */; };
 		636092B7163C428F0074D391 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636092B1163C428F0074D391 /* MainMenu.xib */; };
-		636092B8163C428F0074D391 /* PauseIt-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 636092B3163C428F0074D391 /* PauseIt-Info.plist */; };
 		636092DD163C59620074D391 /* next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 636092DB163C59620074D391 /* next.scpt */; };
 		636092DE163C59620074D391 /* playpause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 636092DC163C59620074D391 /* playpause.scpt */; };
 		636092E1163C5C3A0074D391 /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 636092E0163C5C3A0074D391 /* menuIcon.png */; };
@@ -237,7 +236,7 @@
 			name = PauseItTests;
 			productName = PauseItTests;
 			productReference = 6386A1B11629652500936C1D /* PauseItTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -245,7 +244,8 @@
 		6386A1871629652400936C1D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Siyuan Zhang";
 			};
 			buildConfigurationList = 6386A18A1629652400936C1D /* Build configuration list for PBXProject "PauseIt" */;
@@ -274,7 +274,6 @@
 				636092B5163C428F0074D391 /* Credits.rtf in Resources */,
 				636092B6163C428F0074D391 /* InfoPlist.strings in Resources */,
 				636092B7163C428F0074D391 /* MainMenu.xib in Resources */,
-				636092B8163C428F0074D391 /* PauseIt-Info.plist in Resources */,
 				636092DD163C59620074D391 /* next.scpt in Resources */,
 				636092DE163C59620074D391 /* playpause.scpt in Resources */,
 				636092E1163C5C3A0074D391 /* menuIcon.png in Resources */,
@@ -378,7 +377,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -408,7 +406,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -458,7 +455,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PauseIt/PauseIt-Prefix.pch";
+				GCC_PREFIX_HEADER = "Classes/PauseIt-Prefix.pch";
 				INFOPLIST_FILE = "PauseItTests/PauseItTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -473,7 +470,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PauseIt/PauseIt-Prefix.pch";
+				GCC_PREFIX_HEADER = "Classes/PauseIt-Prefix.pch";
 				INFOPLIST_FILE = "PauseItTests/PauseItTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
